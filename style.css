@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+    background-image: url(Imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menoinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 100px;
+}
+
+#video{
+    margin: 100px 50px 50px 200px
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px; 
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 80px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 80%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    font-weight: bolder;
+    width: 300px;
+    height: 53px;
+    background-color: #247BA0;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    background-color: #318fb8;
+    color: white;
+    box-shadow: 0px 15px 20px #1f3969b6;
+    transition-duration: 0,5s;
+}
